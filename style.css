@@ -1,0 +1,35 @@
+body{
+    background: url('images/bg.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+.login-box{
+    background: #00587a;
+    color:white;
+    box-shadow:  5px 5px 10px #002533;
+    max-width: 500px;
+    border: 1px  solid  rgb(94, 22, 189);
+    height: 500px;
+    padding: 50px;
+    float: none;
+    margin: 150px auto;
+}
+
+
+.head{
+  font-size: xx-large !important;
+  font-weight: bold;
+  margin-bottom: 30px !important;
+}
+label{
+  font-size: large;
+}
+#head-bar{
+  top: 0px;
+}
+.fp a{
+  color:yellow;
+}

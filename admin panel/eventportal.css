@@ -1,0 +1,25 @@
+.fa-calendar-alt{
+  color:#ff8838;
+}
+.navbar-brand{
+  font-family: 'Titillium Web', sans-serif;
+  height:20%;
+}
+.navbar-brand .fa-calendar-alt{
+  padding-right: 3%;
+  font-size: 450%;
+}
+.event_heading{
+  font-size:250%;
+}
+.head{
+  padding-top: 5%;
+  -webkit-box-shadow: 0 12px 12px -12px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 12px 12px -12px black;
+}
+
+.add_event .fa-plus-square .icon_text{
+  font-size: 70%;
+  font-family: 'Noto Sans JP', sans-serif !important;
+}

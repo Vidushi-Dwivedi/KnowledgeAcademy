@@ -1,0 +1,25 @@
+/* head NAv Bar */
+#head-bar{
+  position:fixed;
+  z-index:100;
+  width:100%;
+}
+.nav-const{
+  background-color: #1c2645 !important;
+}
+.nav-ref,.nav-ref:visited,.nav-ref:active{
+  color:white !important;
+}
+.nav-ref:hover{
+  color: #b4bcc0 ;
+}
+.dropdown-menu{
+  background-color: #1b262c !important;
+}
+.dropdown-menu a{
+  color:white;
+}
+.dropdown-menu a:hover{
+  background-color: #00587a;
+  color:white;
+}

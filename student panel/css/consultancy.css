@@ -1,0 +1,146 @@
+
+.body_row{
+  height:900px;
+  }
+.first_col,.third_col{
+  background-color: #2d8074;
+}
+.middle_col{
+  background-color: #fde8cd;
+}
+.chat_box{
+  margin-top: 50px;
+}
+.messages_div{
+  background: url(../../images/chat_bg.png) #fde8cd;
+  height:600px;
+  overflow-y: scroll;
+  border-radius: 10px;
+  padding: 5px;
+}
+.messages_div .sender{
+  text-align: right;
+  font-size: medium;
+  padding: 5px;
+}
+.messages_div .reciever{
+  text-align: left;
+  font-size: medium;
+  padding: 5px;
+}
+.messages_div .sender .msg_wrap{
+  background-color: #e4f5bc;
+  border-radius: 5px;
+  padding:5px;
+}
+.messages_div .reciever .msg_wrap, .messages_div .date .msg_wrap{
+  background-color: white;
+  border-radius: 5px;
+  padding:5px;
+}
+.messages_div .date .msg_wrap{
+    background-color: #e5fbff;
+}
+.messages_div .time{
+  font-size: xx-small;
+}
+.messages_div .sender .time{
+  padding-left:10px;
+}
+.messages_div .reciever .time{
+  padding-right: 10px;
+}
+.messages_div .date{
+  text-align: center;
+  font-size: small;
+  padding: 5px;
+  padding-top: 10px;
+}
+.chat_box{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.input{
+  background-color: #1c2645 ;
+  border-radius: 10px;
+  color:white;
+  margin-bottom: 50px;
+}
+.input input[type=text]{
+  width:95%;
+  font-size: medium;
+  border-radius: 10px;
+}
+.fa-paper-plane{
+  width:5%;
+  padding:3px;
+  font-size: 170%;
+  padding-top: 6px;
+}
+.reciever_div{
+  height:60px;
+  background-color: #1c2645;
+  color:white;
+  padding:5px;
+  padding-left: 15px;
+  font-size: large;
+  border-radius: 10px;
+}
+#reciever_img{
+  height: 50px;
+  width:50px;
+  border-radius: 50%;
+  border: 2px solid white;
+  visibility: hidden;
+}
+.receiver_chat{
+  margin-top: 30px;
+}
+.third_col .head{
+  height: 50px;
+  background-color: #1c2645;
+  color:white;
+  padding:4%;
+  margin: 50px 10px 10px 0;
+  font-size: large;
+  font-weight: 600;
+  border-radius: 10px;
+}
+#new_msg{
+  height:700px;
+  overflow-y: scroll;
+}
+#new_msg .new_msg_user{
+  height:60px;
+  padding:0;
+  background-color: white;
+  text-align: left;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+#new_msg #new_msg_user_img{
+  height:50px;
+  width:50px;
+  border-radius: 50%;
+}
+
+#new_msg .new_msg_user_name{
+  padding: 5px;
+    font-weight: 600;
+}
+#new_msg .count{
+  height:25px;
+  width:25px;
+  border-radius: 50%;
+  background-color: #32db14;
+  padding:5px;
+  padding-bottom: 5px !important;
+  font-size: x-small;
+  font-weight: bold;
+  margin: auto;
+}
+.no_msg{
+  color:white;
+}

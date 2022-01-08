@@ -1,0 +1,29 @@
+body{
+  width:100%;
+}
+.top{
+  background-color: #1c2645 !important;
+}
+.navbar-brand{
+    color: white !important;
+    box-shadow:  5px 5px 7px #101627,
+             -5px -5px 7px #283663;
+}
+.second{
+  background-color: #26335a !important;
+}
+.ico{
+  color:white;
+}
+.second a{
+  color: white !important;
+}
+.dropdown-menu{
+  background-color: #26335a !important;
+}
+.dropdown-menu a:hover{
+  background-color:#3c508b !important;
+}
+.fa-ellipsis-h{
+  color:white !important;
+}

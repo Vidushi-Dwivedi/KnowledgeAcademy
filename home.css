@@ -1,0 +1,237 @@
+
+/* head front carousel */
+.containerImage img{
+  width:100%;
+  height: 700px;
+  z-index: 3;
+}
+
+@media only screen and (max-width: 1020px) and (min-width: 600px)  {
+
+  .containerImage img{
+  height: 500px;
+  }
+}
+@media(max-width:600px){
+  .containerImage img{
+  height: 300px;
+  }
+}
+.containerImage{
+  width:100%;
+  margin: 0  ;
+  padding: 0;
+  position: relative;
+  text-align:center;
+}
+.captionContainer{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  text-shadow: 0px 0px 5px  #2f3031;
+  position:absolute;
+  color:white;
+  padding:0 20%;
+  top:55%;
+}
+.captionContainer h2{
+  font-family:  'Exo', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  text-shadow: 0px 0px 3px  #2f3031;
+}
+.head-button{
+  color:white;
+  background-color:#f8741b !important;
+}
+@media(max-width:1020px){
+  .captionContainer{
+    position:static;
+    background-color:#00587a;
+    padding: 5% 10%;
+    text-align: justify;
+  }
+
+}
+
+/* Update Center */
+
+#updateCenter{
+    text-align:center;
+    padding: 5% 10% 0 10%;
+
+}
+.ucenter-head{
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 280%;
+}
+
+/* Event Part */
+
+.Event_contain {
+  margin-top: 75px;
+  width: 100%;
+  padding-right: 1%;
+}
+
+.head {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 180%;
+  background-color: #00587a;
+  Color: white;
+}
+
+.event_li1, .event_li2, .event_li3 {
+  position: relative;
+  height: 75px;
+  margin-top: 10px;
+}
+
+.left_event {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  border-radius: 1rem;
+  border: solid #00587a;
+  border-width: 1px;
+  background-color: #DBF6E9;
+  width: 20%;
+}
+
+.Right_event {
+  display: inline-block;
+  position: absolute;
+  left: 25%;
+  width: 70%;
+  vertical-align: middle;
+  margin-right: 5%;
+}
+
+.Right_event p {
+  text-align: left;
+  width: 100%;
+  padding-right: 10px;
+  font-size: 1.1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* .button_event {
+  position: relative;
+  left: 40%;
+  padding:20% 20% !important;
+} */
+
+@media only screen and (min-width: 990px) {
+
+  .Right_event p {
+    font-size: 1.1rem;
+    width: 65%;
+  }
+
+}
+@media only screen and (max-width: 990px) {
+.event_li1, .event_li2, .event_li3 {
+  position: relative;
+  height: 75px;
+  margin-top: 20px;
+}
+}
+/* notice part */
+
+.notice_contain {
+  margin-top: 75px;
+  width: 100%;
+  padding-left: 1%;
+}
+.notice_li1,.notice_li2,.notice_li3{
+  text-align: left;
+  padding-bottom: 2%;
+  padding-top: 1.5%;
+}
+.notice_flex1,.notice_flex2,.notice_flex3{
+  display: flex;
+  justify-content: space-between;
+}
+.notice_date1{
+  padding-left:1%;
+  padding-top:1%;
+}
+.notice_head1,.notice_head2,.notice_head3{
+  padding-top: 2%;
+}
+
+/* button event and notice */
+.button_update{
+  position:absolute;
+  right:10%;
+  padding-bottom: 10%;
+}
+
+/* About School and principalDesk*/
+
+#aboutSchool,#principalDesk{
+  background-color:#00587a;
+  Color:white;
+  padding:3% 3%;
+  padding-top: 3%;
+  text-align:center;
+  margin-top: 10%;
+}
+.about p{
+  font-size: large;
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;
+  margin-top: auto;
+  padding: auto;
+}
+.about img{
+  width:70%;
+  padding:2%;
+  border: 2px solid #002533;
+  box-shadow:  12px 12px 24px #002533;
+  margin-bottom: 10px;
+}
+.about h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 280%;
+    padding-bottom:3%;
+}
+.about .button{
+  text-align: center;
+}
+
+/* School_Events */
+
+.Event_Grid_head{
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 280%;
+        text-align: center;
+        padding-bottom: 3%;
+}
+.School_Events{
+  padding:2% 5% 5% 5%;
+}
+.School_Events img{
+  padding: 2% 2%;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow:  12px 12px 24px #9bb4c3;
+}
+
+.School_Events p{
+  padding: 7% 0;
+  margin: auto;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
+}
+.School_Events .button{
+  text-align: center;
+}
+
+/* principalDesk */
+
+
+#principalDesk{
+  margin-top: 0;
+  margin-bottom:100px;
+}

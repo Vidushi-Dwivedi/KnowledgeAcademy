@@ -1,0 +1,33 @@
+
+.login-box{
+    background: linear-gradient(white,rgba(0,0,50,0.5)),url("th.jfif");
+    max-width: 500px;
+    border: 1px  solid  rgb(94, 22, 189);
+    height: 400px;
+    padding: 50px;
+    float: none;
+    margin: 150px auto;
+}
+body,html{
+    background: url('th.jfif') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.login-left{
+    
+    padding: 30px;
+}
+.login-right{
+    
+    padding: 30px;
+}
+.main-header{
+    background-image: url('D:\sw\HOS1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
